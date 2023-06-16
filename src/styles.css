@@ -29,8 +29,13 @@ body {
     max-width: 50%;
   }
 
-  .container {
+  .wiki-container {
     max-width: width 960px;
     margin: 0 auto;
   }
+}
+.wiki-container {
+  max-width: width 960px;
+  margin: 0 auto;
+}
 }
