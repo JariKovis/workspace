@@ -73,7 +73,8 @@ function initializeCode() {
     divi2.appendChild(divi3);
     divi1.appendChild(h1);
     divi1.appendChild(divi2);
+    divi.appendChild(divi1);
   });
-  divi.appendChild(divi1);
+  
   document.body.appendChild(divi);
 }
