@@ -12,10 +12,10 @@ function initializeCode() {
   document.getElementById("app").innerHTML = "<h1><i>Koira-Wiki</i></h1>";
   const divi = document.createElement("div");
   divi.setAttribute("class", "container");
-  const divi1 = document.createElement("div");
-  divi1.setAttribute("class", "wiki-item");
+
   rodut.forEach(function (rotu, i) {
-    const h1 = document.createElement("h1");
+    const divi1 = document.createElement("div");
+    divi1.setAttribute("class", "wiki-item"); const h1 = document.createElement("h1");
     h1.setAttribute("class", "wiki-header");
     h1.textContent = rotu;
     const divi2 = document.createElement("div");
